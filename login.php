@@ -5,11 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Pure Water, Pure Wellness</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style12.css">
+    <!-- <link rel="stylesheet" href="css/login.css"> -->
+     <style>
+        body, html {
+    height: 100%;
+    margin: 0;
+    /* background-color: #007bff; */
+}
+
+.login-page {
+    background-image: url('img/bodybg.webp'); /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+
+.card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+}
+
+.card-title {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+     </style>
     
 </head>
 <body>
-    <div class="container-fluid login-page">
+    <div class="container-fluid login-page ">
         <div class="row justify-content-center align-items-center min-vh-100">
             <div class="col-md-6 col-lg-4">
                 <div class="card shadow">
